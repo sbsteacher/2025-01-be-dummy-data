@@ -6,5 +6,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class FeedPostReq {
-
+    private long writerUserId;
+    private String contents;
+    private String location;
 }
